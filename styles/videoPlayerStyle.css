@@ -1,0 +1,217 @@
+
+body{
+    background: url("../images/background.jpeg") no-repeat;
+}
+#main{
+    width: 960px;
+    text-align: center;
+    margin:  0 auto;
+    background-color: dimgrey ;
+    position: relative;
+
+    
+}
+#custom-video{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+
+
+}
+#video-controls{
+    width: 100%;
+    height: 50px;
+    z-index: 2147483648;
+    background-color: #6eb9ff;
+    -webkit-user-select: none;
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}
+
+.full-screen{
+    width: 40px;
+    height: 33px;
+    background: url("../images/playerSprite.png");
+    background-position: -760px 0px;
+    opacity: 0.8;
+    cursor: pointer;
+    position: absolute;
+    left: 920px;
+    top: 15px;
+}
+.exit-Screen{
+    width: 40px;
+    height: 33px;
+    background: url("../images/exit_fullScreen.png");
+    background-size: 100% 100%;
+    opacity: 0.6;
+    cursor: pointer;
+    position: absolute;
+    left: 95%;
+    top: 15px;
+}
+
+#video-progress{
+    width: 100%;
+    height: 5px;
+    background-color: #999999;
+    cursor: pointer;
+    position: relative;
+    left: 0.5%;
+    top: 0;
+}
+
+#buffer-progress{
+    width: 0;
+    height: 100%;
+    background-color: darkgrey;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#played-progress{
+    width: 0;
+    height: 100%;
+    background-color: lightcoral;
+    position: absolute;
+    left: 0;
+    top: 0;
+ }
+
+#progress-bar{
+    width: 15px;
+    height: 15px;
+    background: url("../images/playerSprite.png");
+    background-position: -442px 0px;
+    position: absolute;
+    left: -6px;
+    top: -6px;
+}
+
+#video-ctrlPanel {
+    width: 100%;
+    height: 43px;
+    background-color: #131313;
+}
+
+#btn-playOrPause {
+    width: 35px;
+    height: 33px;
+    background: url("../images/playerSprite.png");
+    background-position: -570px 0px;
+    opacity: 1;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+
+#btn-fastBackward {
+    width: 35px;
+    height: 33px;
+    background: url("../images/playerSprite2.png");
+    background-position: -66px 0px;
+    opacity: 0.4;
+    cursor: pointer;
+    position: absolute;
+    left: 125px;
+    top: 15px;
+}
+
+#btn-fastForward {
+    width: 35px;
+    height: 33px;
+    background: url("../images/playerSprite2.png");
+    background-position: -149px 0px;
+    opacity: 0.4;
+    cursor: pointer;
+    position: absolute;
+    left: 170px;
+    top: 15px;
+}
+
+#btn-stop {
+    width: 35px;
+    height: 33px;
+    background: url("../images/playerSprite.png");
+    background-position: -333px 0px;
+    opacity: 0.4;
+    cursor: pointer;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+
+#btn-vol {
+    width: 35px;
+    height: 33px;
+    background: url("../images/playerSprite.png");
+    background-position: -55px 0px;
+    opacity: 0.4;
+    cursor: pointer;
+    position: absolute;
+    left: 750px;
+    top: 15px;
+}
+
+#volume-seek{
+    width: 100px;
+    height: 9px;
+    background-color: #999999;
+    position: absolute;
+    cursor: pointer;
+    left: 780px;
+    top: 27px;
+}
+
+#volume-progress{
+    width: 100%;
+    height: 100%;
+    background-color: #0E8DD5;
+    position: absolute;
+}
+
+#volume-bar{
+    width: 15px;
+    height: 15px;
+    background-position: -441px 0px;
+    background: url("../images/playerSprite.png");
+    position: absolute;
+    left:90px;
+    top: -4px;
+}
+
+#currentTime {
+    width: 80px;
+    height: 25px;
+    color: #999999;
+    position: absolute;
+    left: 210px;
+    top: 25px;
+    font-family: fantasy;
+}
+
+#durationTime{
+    width: 80px;
+    height: 25px;
+    color: #efefef;
+    position: absolute;
+    left: 270px;
+    top: 25px;
+    font-family: fantasy;
+}
+#fenge_line{
+    width: 80px;
+    height: 25px;
+    color: #efefef;
+    position: absolute;
+    left: 242px;
+    top: 25px;
+    font-family: fantasy;
+}

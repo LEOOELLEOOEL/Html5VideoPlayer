@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Video播放器</title>
+    <link type="text/css" href="styles/videoPlayerStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main">
+        <div id="custom-video">
+            <video id="video" src="medias/红颜旧.mp4" poster="images/poster.jpg" preload="auto"  />
+        </div>
+        <div id="video-controls">
+            <div id="video-progress">
+                <div id="buffer-progress"></div>
+                <div id="played-progress"></div>
+                <div id="progress-bar"></div>
+            </div>
+
+            <div id="video-ctrlPanel">
+                <div id="btn-playOrPause"></div>
+                <div id="btn-stop"></div>
+                <div id="btn-fastBackward"></div>
+                <div id="btn-fastForward"></div>
+                <div id="btn-vol"></div>
+                <div id="volume-seek">
+                    <div id="volume-progress"></div>
+                    <div id="volume-bar"></div>
+                </div>
+
+                <div id="videoTime">
+                    <div id="currentTime">00:00:00</div>
+                     <div id="fenge_line">/</div>
+                    <div id="durationTime">00:00:00</div>
+                </div>
+                <div id="fillScreen" class="full-screen"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script/jquery.min.js"></script>
+    <script src="script/html5.VideoPlayer.js"></script>
+</body>
+</html>
